@@ -1,0 +1,84 @@
+#mainbox {
+  display: flex;
+  margin-left: 30px;
+  
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: auto;
+  margin: auto;
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bolder;
+  width: 1200px;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+th {
+  background-color:  #0277c5;
+}
+
+.delete {
+  text-align: center;
+}
+
+.delete button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+form {
+  width: 350px;
+  margin-bottom: 20px;
+  
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #0277c5;
+  border-radius: 15px;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
